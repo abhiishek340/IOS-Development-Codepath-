@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./IOS 101.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -27,14 +27,31 @@ GIF created with ...
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## App Brainstorming (Step 4)
+1. Instagram:
+
+Visual Storytelling: Creative photo and video sharing.
+Filters and Editing: Enhancing image quality and customization.
+Direct Messaging: Private conversations and content sharing.
+
+2. LinkedIn:
+
+Professional Networking: Expanding professional connections.
+Job Search: Finding and applying for job opportunities.
+Content Sharing: Sharing insights and engaging with network.
+
+3. YouTube:
+
+Video Diversity: Range of educational and entertainment content.
+Subscriptions: Staying updated on favorite channels.
+User-Generated Content: Encouraging creativity and sharing passions.
+
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+It was enjoyable working in Xcode.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Abhishek]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
