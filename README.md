@@ -4,7 +4,7 @@ Submitted by: **Abhishek Yadav**
 
 **IOS Preview is an app that serves as an introduction to IOS development**
 
-Time spent: **1** hours spent in total
+Time spent: **1** hour spent in total
 
 ## Required Features
 
