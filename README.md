@@ -1,66 +1,79 @@
-# Prework - *IOS Application*
+<div align="center">
 
-Submitted by: **Abhishek Yadav**
+# iOS Prework: Intro App
 
-**IOS Preview is an app that serves as an introduction to IOS development**
+A first UIKit app made as an introduction to Xcode and iOS development.
 
-Time spent: **1** hour spent in total
+<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift"/>
+<img src="https://img.shields.io/badge/UIKit-2396F3?style=flat-square&logo=apple&logoColor=white" alt="UIKit"/>
+<img src="https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white" alt="Xcode"/>
 
-## Required Features
+</div>
 
-The following **required** functionality is completed:
+> Prework project for CodePath's **iOS 101: Intro to iOS Development** course. Submitted by Abhishek Yadav. Time spent: about 1 hour.
 
-- [✅] Users are see a screen with three labels and a button
-- [✅] Tapping the button changes the screen color to a random color
- 
-## Video Walkthrough
+## Overview
 
-Here's a walkthrough of implemented user stories:
+The assignment is a single-screen app with three labels and a button. Tapping the button changes the background to a random color. The walkthrough GIF below shows the finished app running in the simulator.
 
-<img src='./IOS 101.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+## Course checklist
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+**Required features**
 
-## App Brainstorming (Step 4)
-1. Instagram:
+- [x] The user sees a screen with three labels and a button
+- [x] Tapping the button changes the screen color to a random color
 
-Visual Storytelling: Creative photo and video sharing.
-Filters and Editing: Enhancing image quality and customization.
-Direct Messaging: Private conversations and content sharing.
+## Walkthrough
 
-2. LinkedIn:
+<img src="./IOS%20101.gif" title="Video Walkthrough" alt="Video walkthrough of the iOS prework app" />
 
-Professional Networking: Expanding professional connections.
-Job Search: Finding and applying for job opportunities.
-Content Sharing: Sharing insights and engaging with network.
+## Tech stack
 
-3. YouTube:
+| Layer | Technology |
+| --- | --- |
+| Language | Swift 5 |
+| UI | UIKit, storyboards |
+| Lifecycle | `AppDelegate` + `SceneDelegate` |
+| Target | iOS 16.4 deployment target |
 
-Video Diversity: Range of educational and entertainment content.
-Subscriptions: Staying updated on favorite channels.
-User-Generated Content: Encouraging creativity and sharing passions.
+## Project structure
 
+```text
+.
+├── IOS/
+│   ├── AppDelegate.swift
+│   ├── SceneDelegate.swift
+│   ├── ViewController.swift
+│   ├── Base.lproj/
+│   │   ├── Main.storyboard
+│   │   └── LaunchScreen.storyboard
+│   ├── Assets.xcassets/
+│   └── Info.plist
+├── IOS.xcodeproj/
+└── IOS 101.gif               # walkthrough recording
+```
+
+## Getting started
+
+1. Open `IOS.xcodeproj` in Xcode (14.3 or later for the iOS 16.4 SDK).
+2. Select an iPhone simulator.
+3. Build and run with `Cmd + R`.
+
+## App brainstorming (Step 4)
+
+The prework also asked for a short analysis of three existing apps.
+
+| App | Key ideas |
+| --- | --- |
+| Instagram | Visual storytelling through photo and video sharing; filters and editing; direct messaging |
+| LinkedIn | Professional networking; job search and applications; sharing insights with your network |
+| YouTube | Wide range of educational and entertainment video; channel subscriptions; user-generated content |
 
 ## Notes
-It was enjoyable working in Xcode.
 
-## License
+- The committed source matches the default Xcode app template. `ViewController.swift` contains only `viewDidLoad`, and `Main.storyboard` has no labels or button. The finished app appears only in the walkthrough GIF.
+- The author's note: it was enjoyable working in Xcode.
 
-    Copyright [2023] [Abhishek]
+---
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Built by [Abhishek Yadav](https://github.com/abhiishek340)
